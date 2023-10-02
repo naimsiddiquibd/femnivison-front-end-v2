@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <div name='home' className='w-full h-screen relative overflow-hidden bg-slate-500'>
             {/* Video Background */}
-            <video
+            {/* <video
                 autoPlay
                 loop
                 muted
@@ -23,7 +23,7 @@ const Hero = () => {
             >
                 <source src={bgVideo} type='video/mp4' />
                 Your browser does not support the video tag.
-            </video>
+            </video> */}
 
             <div className='w-full h-full flex flex-col justify-between relative z-10'>
                 <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
